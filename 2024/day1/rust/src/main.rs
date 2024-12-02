@@ -29,7 +29,7 @@ fn part_one() {
         total_distance += (left_ids[i] - right_ids[i]).abs();
     }
 
-    println!("Part 1: {}", total_distance);
+    println!("Part one: {}", total_distance);
 }
 
 fn part_two() {
@@ -49,7 +49,7 @@ fn part_two() {
         total += *score * id;
     }
 
-    println!("Part2: {}", total);
+    println!("Part two: {}", total);
 }
 
 fn main() {

@@ -81,4 +81,5 @@ func main() {
 	fmt.Println("Go solutions")
 	part_one()
 	part_two()
+	fmt.Println("----------------------------------------------")
 }
